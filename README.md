@@ -1,11 +1,11 @@
-# Dark Souls 3 Cheat Sheet
+# Blasphemous 2 Cheat Sheet
 
-To view the cheat sheet [click here](http://MarcLadon.github.io/Dark-Souls-3/).
+To view the cheat sheet [click here](http://MarcLadon.github.io/BlasphemousV2/).
 
 | Class   | Description |
 |---      |--- |
 | f_boss  | Boss fights |
-| f_miss  | Content that can be permanently missed |
+| f_relique  | Relique |
 | f_npc   | NPC side quests |
 | f_estus | Estus Shards |
 | f_bone  | Undead Bone Shards |
