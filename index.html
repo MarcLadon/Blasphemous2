@@ -2,12 +2,12 @@
 <html lang="en-US">
 <head>
   <meta charset="utf-8">
-  <title>Dark Souls 3 Cheat Sheet</title>
+  <title>DBlasphemous Cheat Sheet</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico?">
   <link rel="apple-touch-icon-precomposed" href="img/favicon-152.png">
   <link rel="mask-icon" href="img/pinned-tab-icon.svg" color="#000000">
-  <meta name="description" content="Cheat sheet for Dark Souls 3. Checklist of things to do, items to get etc.">
+  <meta name="description" content="Cheat sheet for Blasphemous">
   <meta name="mobile-web-app-capable" content="yes">
   <link id="bootstrap" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
   <link href="css/main.css" rel="stylesheet">
@@ -69,7 +69,6 @@
           <span class="btn-group btn-group-toggle" data-toggle="buttons">
             <label class="btn btn-default"><input type="radio" name="journey" data-ng-toggle="1">NG</label>
             <label class="btn btn-default"><input type="radio" name="journey" data-ng-toggle="2">NG+</label>
-            <label class="btn btn-default"><input type="radio" name="journey" data-ng-toggle="3">NG++</label>
           </span>
         </h2>
         <div class="btn-group">
@@ -80,7 +79,7 @@
                   <input type="checkbox" data-category-toggle />
                   <span class="glyphicon glyphicon-eye-close"></span>
                   <span class="glyphicon glyphicon-eye-open"></span>
-                  Quests
+                  Général
                 </label>
               </div>
             </div>
@@ -93,16 +92,22 @@
                   Bosses
                 </label>
                 <label class="btn btn-default">
-                  <input type="checkbox" data-item-toggle="f_miss" />
+                  <input type="checkbox" data-item-toggle="f_quete" />
                   <span class="glyphicon glyphicon-eye-close"></span>
                   <span class="glyphicon glyphicon-eye-open"></span>
-                  Missable
+                  Objet de quête
                 </label>
                 <label class="btn btn-default">
-                  <input type="checkbox" data-item-toggle="f_npc" />
+                  <input type="checkbox" data-item-toggle="f_pnj" />
                   <span class="glyphicon glyphicon-eye-close"></span>
                   <span class="glyphicon glyphicon-eye-open"></span>
-                  NPCs
+                  PNJ
+                </label>
+                <label class="btn btn-default">
+                  <input type="checkbox" data-item-toggle="f_challenge" />
+                  <span class="glyphicon glyphicon-eye-close"></span>
+                  <span class="glyphicon glyphicon-eye-open"></span>
+                  Challenge
                 </label>
               </div>
             </div>
@@ -114,41 +119,53 @@
                   <input type="checkbox" data-category-toggle />
                   <span class="glyphicon glyphicon-eye-close"></span>
                   <span class="glyphicon glyphicon-eye-open"></span>
-                  Upgrades
+                  Item
                </label>
               </div>
             </div>
             <div class="btn-group">
               <div class="btn-group-vertical btn-group-sm" data-toggle="buttons">
                 <label class="btn btn-default">
-                  <input type="checkbox" data-item-toggle="f_estus" />
+                  <input type="checkbox" data-item-toggle="f_relique" />
                   <span class="glyphicon glyphicon-eye-close"></span>
                   <span class="glyphicon glyphicon-eye-open"></span>
-                  Estus Shards
+                  Relique
                 </label>
                 <label class="btn btn-default">
-                  <input type="checkbox" data-item-toggle="f_bone" />
+                  <input type="checkbox" data-item-toggle="f_priere" />
                   <span class="glyphicon glyphicon-eye-close"></span>
                   <span class="glyphicon glyphicon-eye-open"></span>
-                  Undead Bone Shards
+                  Prière
                 </label>
                 <label class="btn btn-default">
-                  <input type="checkbox" data-item-toggle="f_tome" />
+                  <input type="checkbox" data-item-toggle="f_rosaire" />
                   <span class="glyphicon glyphicon-eye-close"></span>
                   <span class="glyphicon glyphicon-eye-open"></span>
-                  Scrolls/Tomes
+                  Rosaire
                 </label>
                 <label class="btn btn-default">
-                  <input type="checkbox" data-item-toggle="f_coal" />
+                  <input type="checkbox" data-item-toggle="f_noeud" />
                   <span class="glyphicon glyphicon-eye-close"></span>
                   <span class="glyphicon glyphicon-eye-open"></span>
-                  Coals
+                  Noeud de la corde du rosaire
                 </label>
                 <label class="btn btn-default">
-                  <input type="checkbox" data-item-toggle="f_ash" />
+                  <input type="checkbox" data-item-toggle="f_vif" />
                   <span class="glyphicon glyphicon-eye-close"></span>
                   <span class="glyphicon glyphicon-eye-open"></span>
-                  Ashes
+                  Vif-argent
+                </label>
+                <label class="btn btn-default">
+                  <input type="checkbox" data-item-toggle="f_coeur" />
+                  <span class="glyphicon glyphicon-eye-close"></span>
+                  <span class="glyphicon glyphicon-eye-open"></span>
+                  Coeur
+                </label>
+                <label class="btn btn-default">
+                  <input type="checkbox" data-item-toggle="f_flasque" />
+                  <span class="glyphicon glyphicon-eye-close"></span>
+                  <span class="glyphicon glyphicon-eye-open"></span>
+                  Flasque de bile vide
                 </label>
               </div>
             </div>
@@ -160,129 +177,64 @@
                   <input type="checkbox" data-category-toggle />
                   <span class="glyphicon glyphicon-eye-close"></span>
                   <span class="glyphicon glyphicon-eye-open"></span>
-                  Achievements
+                  Divers
                 </label>
               </div>
             </div>
             <div class="btn-group">
               <div class="btn-group-vertical btn-group-sm" data-toggle="buttons">
                 <label class="btn btn-default">
-                  <input type="checkbox" data-item-toggle="f_gest" />
+                  <input type="checkbox" data-item-toggle="f_meaculpa" />
                   <span class="glyphicon glyphicon-eye-close"></span>
                   <span class="glyphicon glyphicon-eye-open"></span>
-                  Gestures
+                  Sanctuaire Mea Culpa
                 </label>
                 <label class="btn btn-default">
-                  <input type="checkbox" data-item-toggle="f_sorc" />
+                  <input type="checkbox" data-item-toggle="f_portail" />
                   <span class="glyphicon glyphicon-eye-close"></span>
                   <span class="glyphicon glyphicon-eye-open"></span>
-                  Sorceries
+                  Portail de voyage
                 </label>
                 <label class="btn btn-default">
-                  <input type="checkbox" data-item-toggle="f_pyro" />
+                  <input type="checkbox" data-item-toggle="f_statue" />
                   <span class="glyphicon glyphicon-eye-close"></span>
                   <span class="glyphicon glyphicon-eye-open"></span>
-                  Pyromancies
+                  Statue de confession
                 </label>
                 <label class="btn btn-default">
-                  <input type="checkbox" data-item-toggle="f_mirac" />
+                  <input type="checkbox" data-item-toggle="f_os" />
                   <span class="glyphicon glyphicon-eye-close"></span>
                   <span class="glyphicon glyphicon-eye-open"></span>
-                  Miracles
+                  Os
                 </label>
                 <label class="btn btn-default">
-                  <input type="checkbox" data-item-toggle="f_ring" />
+                  <input type="checkbox" data-item-toggle="f_cherubin" />
                   <span class="glyphicon glyphicon-eye-close"></span>
                   <span class="glyphicon glyphicon-eye-open"></span>
-                  Rings
+                  Chérubin
+                </label>
+                <label class="btn btn-default">
+                  <input type="checkbox" data-item-toggle="f_cadavre" />
+                  <span class="glyphicon glyphicon-eye-close"></span>
+                  <span class="glyphicon glyphicon-eye-open"></span>
+                  Cadavre
+                </label>
+                <label class="btn btn-default">
+                  <input type="checkbox" data-item-toggle="f_huile" />
+                  <span class="glyphicon glyphicon-eye-close"></span>
+                  <span class="glyphicon glyphicon-eye-open"></span>
+                  Huile des Pélerins
+                </label>
+                <label class="btn btn-default">
+                  <input type="checkbox" data-item-toggle="f_lady" />
+                  <span class="glyphicon glyphicon-eye-close"></span>
+                  <span class="glyphicon glyphicon-eye-open"></span>
+                  Lady of the Six Sorrows
                 </label>
               </div>
             </div>
           </div>
-          <div class="btn-group btn-group-vertical">
-            <div class="btn-group">
-              <div class="btn-group-vertical" data-toggle="buttons">
-                <label class="btn btn-default dropdown-toggle">
-                  <input type="checkbox" data-category-toggle />
-                  <span class="glyphicon glyphicon-eye-close"></span>
-                  <span class="glyphicon glyphicon-eye-open"></span>
-                  Gear
-                </label>
-              </div>
-            </div>
-            <div class="btn-group">
-              <div class="btn-group-vertical btn-group-sm" data-toggle="buttons">
-                <label class="btn btn-default">
-                  <input type="checkbox" data-item-toggle="f_weap" />
-                  <span class="glyphicon glyphicon-eye-close"></span>
-                  <span class="glyphicon glyphicon-eye-open"></span>
-                  Weapons
-                </label>
-                <label class="btn btn-default">
-                  <input type="checkbox" data-item-toggle="f_arm" />
-                  <span class="glyphicon glyphicon-eye-close"></span>
-                  <span class="glyphicon glyphicon-eye-open"></span>
-                  Armor
-                </label>
-              </div>
-            </div>
-          </div>
-          <div class="btn-group btn-group-vertical">
-            <div class="btn-group">
-              <div class="btn-group-vertical" data-toggle="buttons">
-                <label class="btn btn-default dropdown-toggle">
-                  <input type="checkbox" data-category-toggle />
-                  <span class="glyphicon glyphicon-eye-close"></span>
-                  <span class="glyphicon glyphicon-eye-open"></span>
-                  Materials
-                </label>
-              </div>
-            </div>
-            <div class="btn-group">
-              <div class="btn-group-vertical btn-group-sm" data-toggle="buttons">
-                <label class="btn btn-default">
-                  <input type="checkbox" data-item-toggle="f_tit" />
-                  <span class="glyphicon glyphicon-eye-close"></span>
-                  <span class="glyphicon glyphicon-eye-open"></span>
-                  Titanite
-                </label>
-                <label class="btn btn-default">
-                  <input type="checkbox" data-item-toggle="f_gem" />
-                  <span class="glyphicon glyphicon-eye-close"></span>
-                  <span class="glyphicon glyphicon-eye-open"></span>
-                  Gems
-                </label>
-              </div>
-            </div>
-          </div>
-          <div class="btn-group btn-group-vertical">
-            <div class="btn-group">
-              <div class="btn-group-vertical" data-toggle="buttons">
-                <label class="btn btn-default dropdown-toggle">
-                  <input type="checkbox" data-category-toggle />
-                  <span class="glyphicon glyphicon-eye-close"></span>
-                  <span class="glyphicon glyphicon-eye-open"></span>
-                  Others
-                </label>
-              </div>
-            </div>
-            <div class="btn-group">
-              <div class="btn-group-vertical btn-group-sm" data-toggle="buttons">
-                <label class="btn btn-default">
-                  <input type="checkbox" data-item-toggle="f_cov" />
-                  <span class="glyphicon glyphicon-eye-close"></span>
-                  <span class="glyphicon glyphicon-eye-open"></span>
-                  Covenants
-                </label>
-                <label class="btn btn-default">
-                  <input type="checkbox" data-item-toggle="f_misc" />
-                  <span class="glyphicon glyphicon-eye-close"></span>
-                  <span class="glyphicon glyphicon-eye-open"></span>
-                  Misc. items
-                </label>
-              </div>
-            </div>
-          </div>
+          
         </div>
 
         <h2>Playthrough Checklist <span id="playthrough_overall_total"></span></h2>
