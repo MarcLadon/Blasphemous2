@@ -12,19 +12,19 @@
 .done { color: #009933; }
 
 
-li.data-rosaireperleimmaculee, li.data-rosairesmallbluewax, li.data-rosairemediumbluewax, li.data-rosairebigbluewax, li.data-rosairesmallredwax, li.data-rosairemediumredwax,  li.data-rosairebigredwax, li.data-rosairepetitorteilgres, li.data-rosairegrosorteilgres {display:none}
+li[data-rosaireperleimmaculee], li[data-rosairesmallbluewax], li[data-rosairemediumbluewax], li[data-rosairebigbluewax], li[data-rosairesmallredwax], li[data-rosairemediumredwax],  li[data-rosairebigredwax], li[data-rosairepetitorteilgres], li[data-rosairegrosorteilgres] {display:none}
 
-li.data-reliquesang, li.data-reliquelangue, li.data-reliquelinceul, li.data-reliquelinge, li.data-reliqueongle, li.data-reliquepoumon {display:none}
+li[data-reliquesang], li[data-reliquelangue], li[data-reliquelinceul], li[data-reliquelinge], li[data-reliqueongle], li[data-reliquepoumon] {display:none}
 
-li.data-quetekeyroom, li.data-quetescapulaireincomplet, li.data-queteetoffelin, li.data-queteclehautescimes, li.data-quetedepouilletentudia, li.data-quetecheveuxtentudia, li.data-squelettetentudia, li.data-quetebouquetthym, li.data-queteencensail, li.data-queteromarin, li.data-quetegirofle, li.data-queteolive, li.data-queteailsuie, li.data-queteoeufdifformite, li.data-queteoeufdifformiteeclot, li.data-quetemaintranchee, li.data-quetemarquerefuge1, li.data-quetemarquerefuge2, li.data-quetemarquerefuge3, li.data-quetesangle, li.data_quetegobeletdorevide, li.data_quetesainteblessuredescrupule, li.data-rosaireolivegelee, li.data-quetefleurssechees, li.data-queteclehautescime, li.data-quetevoiledeuilnoir, li.data-queterubannuptial, li.data-quetepiecesmetalfondu, li.data-quetesainteblessurecontrition, li.data-quetesainteblessureattrition, li.data-quetechalice, li.data-quetecleseculier, li.data-quetecleinquisiteur, li.data-queteclescribe, li.data-quetesainteblessureabnegation {display:none}
+li[data-quetekeyroom], li[data-quetescapulaireincomplet], li[data-queteetoffelin], li[data-queteclehautescimes], li[data-quetedepouilletentudia], li[data-quetecheveuxtentudia], li[data-squelettetentudia], li[data-quetebouquetthym], li[data-queteencensail], li[data-queteromarin], li[data-quetegirofle], li[data-queteolive], li[data-queteailsuie], li[data-queteoeufdifformite], li[data-queteoeufdifformiteeclot], li[data-quetemaintranchee], li[data-quetemarquerefuge1], li[data-quetemarquerefuge2], li[data-quetemarquerefuge3], li[data-quetesangle], li[data_quetegobeletdorevide], li[data_quetesainteblessuredescrupule], li[data-rosaireolivegelee], li[data-quetefleurssechees], li[data-queteclehautescime], li[data-quetevoiledeuilnoir], li[data-queterubannuptial], li[data-quetepiecesmetalfondu], li[data-quetesainteblessurecontrition], li[data-quetesainteblessureattrition], li[data-quetechalice], li[data-quetecleseculier], li[data-quetecleinquisiteur], li[data-queteclescribe], li[data-quetesainteblessureabnegation] {display:none}
 
-li.data-bosswarden, li.data-bosstenpiedad, li.data-bossnotredame, li.data-bosstresangustias, li.data-bossesdras, li.data-bossmelquiades, li.data-bosscrisanta, li.data-bossisidora, li.data-bossamanecidagoldenblades, li.data-bossamanecidachiselledsteel, li.data-bossamanecidamoltenthorn, li.data-bossamanecidabejeweledarrow, li.data-Bosssierpes, li.data-bosslaudes, li.data-bossexposito, li.data-bossquirce, li.data-bossescribar {display:none}
+li[data-bosswarden], li[data-bosstenpiedad], li[data-bossnotredame], li[data-bosstresangustias], li[data-bossesdras], li[data-bossmelquiades], li[data-bosscrisanta], li[data-bossisidora], li[data-bossamanecidagoldenblades], li[data-bossamanecidachiselledsteel], li[data-bossamanecidamoltenthorn], li[data-bossamanecidabejeweledarrow], li[data-Bosssierpes], li[data-bosslaudes], li[data-bossexposito], li[data-bossquirce], li[data-bossescribar] {display:none}
 
-li.data-challenge1, li.data-challenge2, li.data-challenge3, li.data-challenge4, li.data-challenge5  {display:none}
+li[data-challenge1], li[data-challenge2], li[data-challenge3], li[data-challenge4], li[data-challenge5]  {display:none}
 
-li.data-pnjjibrael1, li.data-pnjjibrael2, li.data-pnjjibrael3, li.data-pnjjibrael4, li.data-pnjjibrael5 {display:none}
+li[data-pnjjibrael1], li[data-pnjjibrael2], li[data-pnjjibrael3], li[data-pnjjibrael4], li[data-pnjjibrael5] {display:none}
 
-li.data-confession1, li.data-confession2, li.data-confession3, li.data-confession4, li.data-confession5, li.data-confession6, li.data-confession7 {display:none}
+li[data-confession1], li[data-confession2], li[data-confession3], li[data-confession4], li[data-confession5], li[data-confession6], li[data-confession7] {display:none}
 
 
 @media print {
