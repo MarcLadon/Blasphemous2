@@ -35,9 +35,277 @@ var profilesKey = 'darksouls3_profiles';
         // Get the right style going...
         themeSetup(buildThemeSelection());
 
-        $('ul li[data-id]').each(function() {
-            addCheckbox(this);
+
+        $('ul li').each(function(index) {
+            if ($(this).attr('data-id')) {
+               addCheckbox(this);
+            }  
+            
+    /*
+     * -------------------------
+     * CUSTOM MARC
+     * -------------------------
+     */
+            if ($(this).attr('data-rosaireperleimmaculee')) {
+                $(this).addClass($(this).attr('data-rosaireperleimmaculee'));
+            }
+            if ($(this).attr('data-rosairesmallbluewax')) {
+                $(this).addClass($(this).attr('data-rosairesmallbluewax'));
+            }
+            if ($(this).attr('data-rosairemediumbluewax')) {
+                $(this).addClass($(this).attr('data-rosairemediumbluewax'));
+            }
+            if ($(this).attr('data-rosairebigbluewax')) {
+                $(this).addClass($(this).attr('data-rosairebigbluewax'));
+            }
+            if ($(this).attr('data-rosairesmallredwax')) {
+                $(this).addClass($(this).attr('data-rosairesmallredwax'));
+            }
+            if ($(this).attr('data-rosairemediumredwax')) {
+                $(this).addClass($(this).attr('data-rosairemediumredwax'));
+            }
+            if ($(this).attr('data-rosairebigredwax')) {
+                $(this).addClass($(this).attr('data-rosairebigredwax'));
+            }
+            if ($(this).attr('data-rosairepetitorteilgres')) {
+                $(this).addClass($(this).attr('data-rosairepetitorteilgres'));
+            }
+            if ($(this).attr('data-rosairegrosorteilgres')) {
+                $(this).addClass($(this).attr('data-rosairegrosorteilgres'));
+            }
+            if ($(this).attr('data-quetekeyroom')) {
+                $(this).addClass($(this).attr('data-quetekeyroom'));
+            }
+            if ($(this).attr('data_quetegobeletdorevide')) {
+                $(this).addClass($(this).attr('data_quetegobeletdorevide'));
+            }
+            if ($(this).attr('data_quetesainteblessuredescrupule')) {
+                $(this).addClass($(this).attr('data_quetesainteblessuredescrupule'));
+            }
+            if ($(this).attr('data-queteclehautescimes')) {
+                $(this).addClass($(this).attr('data-queteclehautescimes'));
+            }
+            if ($(this).attr('data-quetescapulaireincomplet')) {
+                $(this).addClass($(this).attr('data-quetescapulaireincomplet'));
+            }
+            if ($(this).attr('data-queteetoffelin')) {
+                $(this).addClass($(this).attr('data-queteetoffelin'));
+            }
+            if ($(this).attr('data-quetedepouilletentudia')) {
+                $(this).addClass($(this).attr('data-quetedepouilletentudia'));
+            }
+            if ($(this).attr('data-quetecheveuxtentudia')) {
+                $(this).addClass($(this).attr('data-quetecheveuxtentudia'));
+            }
+            if ($(this).attr('data-data-squelettetentudia')) {
+                $(this).addClass($(this).attr('data-data-squelettetentudia'));
+            }
+            if ($(this).attr('data-quetebouquetthym')) {
+                $(this).addClass($(this).attr('data-quetebouquetthym'));
+            }
+            if ($(this).attr('data-queteencensail')) {
+                $(this).addClass($(this).attr('data-queteencensail'));
+            }
+            if ($(this).attr('data-queteromarin')) {
+                $(this).addClass($(this).attr('data-queteromarin'));
+            }
+            if ($(this).attr('data-quetegirofle')) {
+                $(this).addClass($(this).attr('data-quetegirofle'));
+            }
+            if ($(this).attr('data-data-queteolive')) {
+                $(this).addClass($(this).attr('data-data-queteolive'));
+            }
+            if ($(this).attr('data-data-queteailsuie')) {
+                $(this).addClass($(this).attr('data-data-queteailsuie'));
+            }
+            if ($(this).attr('data-queteoeufdifformite')) {
+                $(this).addClass($(this).attr('data-queteoeufdifformite'));
+            }
+            if ($(this).attr('data-queteoeufdifformiteeclot')) {
+                $(this).addClass($(this).attr('data-queteoeufdifformiteeclot'));
+            }
+            if ($(this).attr('data-quetemaintranchee')) {
+                $(this).addClass($(this).attr('data-quetemaintranchee'));
+            }
+            if ($(this).attr('data-quetemarquerefuge1')) {
+                $(this).addClass($(this).attr('data-quetemarquerefuge1'));
+            }
+            if ($(this).attr('data-quetemarquerefuge2')) {
+                $(this).addClass($(this).attr('data-quetemarquerefuge2'));
+            }
+            if ($(this).attr('data-quetemarquerefuge3')) {
+                $(this).addClass($(this).attr('data-quetemarquerefuge3'));
+            }
+            if ($(this).attr('data-quetesangle')) {
+                $(this).addClass($(this).attr('data-quetesangle'));
+            }
+            if ($(this).attr('data-quetegobeletdorevide')) {
+                $(this).addClass($(this).attr('data-quetegobeletdorevide'));
+            }
+            if ($(this).attr('data-quetesainteblessuredescrupule')) {
+                $(this).addClass($(this).attr('data-quetesainteblessuredescrupule'));
+            }
+            if ($(this).attr('data-rosaireolivegelee')) {
+                $(this).addClass($(this).attr('data-rosaireolivegelee'));
+            }
+            if ($(this).attr('data-quetefleurssechees')) {
+                $(this).addClass($(this).attr('data-quetefleurssechees'));
+            }
+            if ($(this).attr('data-queteclehautescime')) {
+                $(this).addClass($(this).attr('data-queteclehautescime'));
+            }
+            if ($(this).attr('data-quetevoiledeuilnoir')) {
+                $(this).addClass($(this).attr('data-quetevoiledeuilnoir'));
+            }
+            if ($(this).attr('data-queterubannuptial')) {
+                $(this).addClass($(this).attr('data-queterubannuptial'));
+            }
+            if ($(this).attr('data-quetepiecesmetalfondu')) {
+                $(this).addClass($(this).attr('data-quetepiecesmetalfondu'));
+            }
+            if ($(this).attr('data-quetesainteblessurecontrition')) {
+                $(this).addClass($(this).attr('data-quetesainteblessurecontrition'));
+            }
+            if ($(this).attr('data-quetesainteblessureattrition')) {
+                $(this).addClass($(this).attr('data-quetesainteblessureattrition'));
+            }
+            if ($(this).attr('data-quetechalice')) {
+                $(this).addClass($(this).attr('data-quetechalice'));
+            }
+            if ($(this).attr('data-quetecleseculier')) {
+                $(this).addClass($(this).attr('data-quetecleseculier'));
+            }
+            if ($(this).attr('data-quetecleinquisiteur')) {
+                $(this).addClass($(this).attr('data-quetecleinquisiteur'));
+            }
+            if ($(this).attr('data-queteclescribe')) {
+                $(this).addClass($(this).attr('data-queteclescribe'));
+            }
+            if ($(this).attr('data-quetesainteblessureabnegation')) {
+                $(this).addClass($(this).attr('data-quetesainteblessureabnegation'));
+            }
+            if ($(this).attr('data-reliquesang')) {
+                $(this).addClass($(this).attr('data-reliquesang'));
+            }
+            if ($(this).attr('data-reliquelangue')) {
+                $(this).addClass($(this).attr('data-reliquelangue'));
+            }
+            if ($(this).attr('data-reliquelinceul')) {
+                $(this).addClass($(this).attr('data-reliquelinceul'));
+            }
+            if ($(this).attr('data-reliquelinge')) {
+                $(this).addClass($(this).attr('data-reliquelinge'));
+            }
+            if ($(this).attr('data-reliqueongle')) {
+                $(this).addClass($(this).attr('data-reliqueongle'));
+            }
+            if ($(this).attr('data-reliquepoumon')) {
+                $(this).addClass($(this).attr('data-reliquepoumon'));
+            }
+            if ($(this).attr('data-bosswarden')) {
+                $(this).addClass($(this).attr('data-bosswarden'));
+            }
+            if ($(this).attr('data-bosscrisanta')) {
+                $(this).addClass($(this).attr('data-bosscrisanta'));
+            }
+            if ($(this).attr('data-bosstenpiedad')) {
+                $(this).addClass($(this).attr('data-bosstenpiedad'));
+            }
+            if ($(this).attr('data-bossnotredame')) {
+                $(this).addClass($(this).attr('data-bossnotredame'));
+            }
+            if ($(this).attr('data-bosstresangustias')) {
+                $(this).addClass($(this).attr('data-bosstresangustias'));
+            }
+            if ($(this).attr('data-bossesdras')) {
+                $(this).addClass($(this).attr('data-bossesdras'));
+            }
+            if ($(this).attr('data-bossmelquiades')) {
+                $(this).addClass($(this).attr('data-bossmelquiades'));
+            }
+            if ($(this).attr('data-bossisidora')) {
+                $(this).addClass($(this).attr('data-bossisidora'));
+            }
+            if ($(this).attr('data-bossamanecidagoldenblades')) {
+                $(this).addClass($(this).attr('data-bossamanecidagoldenblades'));
+            }
+            if ($(this).attr('data-bossamanecidachiselledsteel')) {
+                $(this).addClass($(this).attr('data-bossamanecidachiselledsteel'));
+            }
+            if ($(this).attr('data-bossamanecidamoltenthorn')) {
+                $(this).addClass($(this).attr('data-bossamanecidamoltenthorn'));
+            }
+            if ($(this).attr('data-bossamanecidabejeweledarrow')) {
+                $(this).addClass($(this).attr('data-bossamanecidabejeweledarrow'));
+            }
+            if ($(this).attr('data-Bosssierpes')) {
+                $(this).addClass($(this).attr('data-Bosssierpes'));
+            }
+            if ($(this).attr('data-bosslaudes')) {
+                $(this).addClass($(this).attr('data-bosslaudes'));
+            }
+            if ($(this).attr('data-bossexposito')) {
+                $(this).addClass($(this).attr('data-bossexposito'));
+            }
+            if ($(this).attr('data-bossquirce')) {
+                $(this).addClass($(this).attr('data-bossquirce'));
+            }
+            if ($(this).attr('data-bossescribar')) {
+                $(this).addClass($(this).attr('data-bossescribar'));
+            }
+            if ($(this).attr('data-challenge1')) {
+                $(this).addClass($(this).attr('data-challenge1'));
+            }
+            if ($(this).attr('data-challenge2')) {
+                $(this).addClass($(this).attr('data-challenge2'));
+            }
+            if ($(this).attr('data-challenge3')) {
+                $(this).addClass($(this).attr('data-challenge3'));
+            }
+            if ($(this).attr('data-challenge4')) {
+                $(this).addClass($(this).attr('data-challenge4'));
+            }
+            if ($(this).attr('data-challenge5')) {
+                $(this).addClass($(this).attr('data-challenge5'));
+            }
+            if ($(this).attr('data-pnjjibrael1')) {
+                $(this).addClass($(this).attr('data-pnjjibrael1'));
+            }
+            if ($(this).attr('data-pnjjibrael2')) {
+                $(this).addClass($(this).attr('data-pnjjibrael2'));
+            }
+            if ($(this).attr('data-pnjjibrael3')) {
+                $(this).addClass($(this).attr('data-pnjjibrael3'));
+            }
+            if ($(this).attr('data-pnjjibrael4')) {
+                $(this).addClass($(this).attr('data-pnjjibrael4'));
+            }
+            if ($(this).attr('data-pnjjibrael5')) {
+                $(this).addClass($(this).attr('data-pnjjibrael5'));
+            }
+            if ($(this).attr('data-confession1')) {
+                $(this).addClass($(this).attr('data-confession1'));
+            }
+            if ($(this).attr('data-confession2')) {
+                $(this).addClass($(this).attr('data-confession2'));
+            }
+            if ($(this).attr('data-confession3')) {
+                $(this).addClass($(this).attr('data-confession3'));
+            }
+            if ($(this).attr('data-confession4')) {
+                $(this).addClass($(this).attr('data-confession4'));
+            }
+            if ($(this).attr('data-confession5')) {
+                $(this).addClass($(this).attr('data-confession5'));
+            }
+            if ($(this).attr('data-confession6')) {
+                $(this).addClass($(this).attr('data-confession6'));
+            }
+            if ($(this).attr('data-confession7')) {
+                $(this).addClass($(this).attr('data-confession7'));
+            }
         });
+        
 
         // Open external links in new tab
         $("a[href^='http']").attr('target','_blank');
@@ -53,6 +321,16 @@ var profilesKey = 'darksouls3_profiles';
               $('[data-id="'+id+'"] label').removeClass('completed');
             }
             $.jStorage.set(profilesKey, profiles);
+
+    /*
+     * -------------------------
+     * CUSTOM MARC
+     * -------------------------
+     */
+            if ($(this).parent().parent().parent().attr('data-unlock')) {
+                 dataUnlock($(this).parent().parent().parent().attr('data-unlock'),isChecked);    
+            }
+            
             calculateTotals();
         });
 
@@ -546,6 +824,24 @@ var profilesKey = 'darksouls3_profiles';
             } else {
                 $(this).css('display', '');
             }
+        });
+    }
+    
+    
+    /*
+     * -------------------------
+     * CUSTOM MARC
+     * -------------------------
+     */
+    
+    function dataUnlock(dataUnlockValue,isChecked) {
+        $("[ "+ dataUnlockValue + "]").each(function() {
+            
+            if(isChecked) {
+                $(this).removeClass(dataUnlockValue);
+            } else {
+                $(this).addClass(dataUnlockValue);
+            } 
         });
     }
 
