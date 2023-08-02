@@ -1,4 +1,4 @@
-var profilesKey = 'darksouls3_profiles';
+var profilesKey = 'blasphemous2_profiles';
 
 (function($) {
     'use strict';
